@@ -8,14 +8,14 @@ double f4(double x, double y) { return x / y; }
 
 int main() {
 	unsigned short choose = 0;
-	double x = 0.0, y=0.0;
-	cout << "ÇëÊäÈë¹¤¾ßÑ¡Ïî" << endl
-		 << "1¼Ó" << endl
-	 	 << "2¼õ" << endl
-	 	 << "3³Ë" << endl
-		 << "4³ý" << endl;
+	double x = 0.0, y = 0.0;
+	cout << "è¯·è¾“å…¥å·¥å…·é€‰é¡¹" << endl
+		 << "1åŠ " << endl
+	 	 << "2å‡" << endl
+	 	 << "3ä¹˜" << endl
+		 << "4é™¤" << endl;
 	cin >> choose;
-	cout << "ÇëÊäÈëÁ½¸ö²ÎÓëÔËËãµÄÊý¾Ý\n";
+	cout << "è¯·è¾“å…¥ä¸¤ä¸ªå‚ä¸Žè¿ç®—çš„æ•°æ®\n";
 	cin >> x;
 	cin >> y;
 	switch (choose) {
@@ -26,5 +26,4 @@ int main() {
 	case 3:
 		cout << f3(x, y) << endl;
 	case 4:
-		cout << f4(x, y) << endl; }
-}
+		cout << f4(x, y) << endl; }}
